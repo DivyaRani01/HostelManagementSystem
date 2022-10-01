@@ -25,10 +25,11 @@ private static SessionFactory sesfac;
 			pr.put(Environment.DRIVER,"com.mysql.cj.jdbc.Driver");
 			pr.put(Environment.URL, "jdbc:mysql://localhost:3306/hostelMS");
 			pr.put(Environment.USER,"root" );
-			pr.put(Environment.PASS, "Divaya123");
+			pr.put(Environment.PASS, "Divya123");
 			pr.put(Environment.DIALECT,"org.hibernate.dialect.MySQL5Dialect");
 			pr.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
 			pr.put(Environment.HBM2DDL_AUTO,"update");
+			//pr.put(Environment.HBM2DDL_AUTO,"create");
 			pr.put(Environment.SHOW_SQL,"false");
 			
 			config.setProperties(pr);
@@ -37,18 +38,17 @@ private static SessionFactory sesfac;
 			
 			sesfac=config.buildSessionFactory();
 			
-		     }
-		catch(Exception e)
+		    }
+			catch(Exception e)
 		     {
 			        e.printStackTrace();
-			        return null;
+			        
 		     }
 	     }
 		return sesfac;
      }
-	      public static Session getSession()
 	     
-	     {
+	public static Session getSession(){
 		      return getSessionFactory().openSession();
 	     }
 

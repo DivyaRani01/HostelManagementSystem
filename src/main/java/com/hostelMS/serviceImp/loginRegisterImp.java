@@ -1,7 +1,13 @@
 package com.hostelMS.serviceImp;
 
 import java.util.Scanner;
+import java.util.Set;
 import java.util.regex.Pattern;
+
+import javax.validation.ConstraintViolation;
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
 
 import org.apache.log4j.Logger;
 
@@ -28,7 +34,7 @@ public class loginRegisterImp implements loginRegister {
 	@Override
 	public void register() throws GlobalException {
 		// TODO Auto-generated method stub
-		log.info("welcome to registeration");
+		log.info("\t\t\t\t>>-----------Welcome to Registration Portal---------------<<");
 		log.info("Enter Username");
 		String uname=obj.next();
 		log.info("Create Password");
@@ -46,12 +52,21 @@ public class loginRegisterImp implements loginRegister {
 		u1.setUserRole("student");
 		u1.setUserRoom(null);
 		u1.setUserFee(0);
-		//using regular expressions to check data correctness
-		if(Pattern.matches("[a-zA-Z]{4,}", uname)&&Pattern.matches("[a-zA-Z0-9@#]{6,}",upwd)&&Pattern.matches("[0-9]{10}", uphone))
+		
+		ValidatorFactory vf= Validation.buildDefaultValidatorFactory();
+		Validator valid=vf.getValidator();
+		
+		Set<ConstraintViolation<User>> violations=	valid.validate(u1);
+		
+		if(violations.size()>0)
 		{
-			//saving the user details
-			int status=dao.registration(u1);
-			//log.info(status);
+			for(ConstraintViolation<User> violate:violations)
+				log.info(violate.getMessage());
+		}
+		else {
+		
+			int status = dao.registration(u1);
+			log.info(status);
 			if(status==1) {
 				log.info("Registration success...!");
 			}
@@ -59,27 +74,26 @@ public class loginRegisterImp implements loginRegister {
 				throw new GlobalException("Something went wrong..!\nPlease Try Again..!");
 			}
 		}
-		else {
-			throw new GlobalException("Invalid data");
-		}
 		
 	}
 
 	@Override
 	public void login() throws GlobalException {
 		// TODO Auto-generated method stub
-        log.info("---------Welcome to Login----------");
+        log.info("\t\t\t\t>>--------------Welcome to Login Portal--------------<<");
 		
-		log.info("Enter username");
+		log.info("Enter Username");
 		String username=obj.next();
-		log.info("Enter password");
+		log.info("Enter Password");
 		String password=obj.next();
+		User u1;
 		//checking login
-		User u1=dao.login(username, password);
+		 u1=dao.login(username, password);
 		//success message
-		log.info("Hello"+u1.getUserName()+"Login Success");
-		UserDashBoard udl= new UserDashBoardImp();
-		AdminDashBoard adl=new AdminDashBoardImp();
+		log.info(u1.getUserName()+"..! Your Login is  Successfull");
+		//creating object of user as well as admin dashboard
+		UserDashBoardImp udl= new UserDashBoardImp();
+		AdminDashBoardImp adl=new AdminDashBoardImp();
 		//if userrole is student then userdashboard will open
 		//if userrole is admin then admindashboard will open
 		if(u1.getUserRole().equals("student")) {
@@ -89,8 +103,7 @@ public class loginRegisterImp implements loginRegister {
 			adl.dashboard();
 		}
 	}
-		
-	}
+	
 
 
 }

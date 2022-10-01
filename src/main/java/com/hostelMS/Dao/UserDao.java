@@ -1,8 +1,11 @@
+/*
+ *Creating a Dao Interface to create abstract method with the name of uerdao.
+ */
 package com.hostelMS.Dao;
-
+//importing required pacakages
 import com.hostelMS.Exception.GlobalException;
 import com.hostelMS.model.User;
-
+//interface named Userdao
 public interface UserDao {
 	
 	public User viewRoom(int uId);

@@ -2,19 +2,15 @@
 //room model to assign one room to multiple students
 package com.hostelMS.model;
 
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
-
-//using getter and setter annotation from lombok
+//using data annotation from lombok
 @Entity
-@Getter
-@Setter
-@ToString
+@Data
 public class Room  {
 	
 	@Id
@@ -22,4 +18,4 @@ public class Room  {
 	private String roomName;
 	private String roomType;
 	
-}
+	}

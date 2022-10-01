@@ -1,3 +1,474 @@
-[main] INFO  com.hostelMS.App  - 					---------Hostel Management System----------
-  [main] INFO  com.hostelMS.App  - 					---------Hostel Management System----------
+[main] INFO  com.hostelMS.App  - 							||>-----------------------WELCOME TO HOSTEL MANAGEMENT SYSTEM---------------------<||
+  [main] INFO  com.hostelMS.App  - 
+Press 1 ***For Registration
+Press 2 ***For Login
+  [main] INFO  com.hostelMS.App  - 				>>--------------Welcome to Login Portal--------------<<
+  [main] INFO  com.hostelMS.App  - Enter Username
+  [main] INFO  com.hostelMS.App  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostelMS]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@287ae90c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.hostelMS.App  - Rani..! Your Login is  Successfull
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			>>------------Welcome to Admin Dashboard-------------------<<
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			----------List of ALL Rooms--------
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 101		 Room Name : Abc		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 102		 Room Name : charRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 103		 Room Name : JohnRoom		Room Type : nonAc
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 104		 Room Name : ForthRoom		Room Type : nonAC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 105		 Room Name : FifthRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 106		 Room Name : SixthRoom		Room Type : AC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 111		 Room Name : ElevRoom		Room Type : NonAC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter Room Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter Room Name
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter Room Type
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room added successfully...!
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter user Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter room Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter Room Id : 
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter Room Id : 
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+		---------Data----------------
+User Id : 1	Name : Divya	Contact : 8800372300
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter user Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter room Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter User Id : 
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.App  - 							||>-----------------------WELCOME TO HOSTEL MANAGEMENT SYSTEM---------------------<||
+  [main] INFO  com.hostelMS.App  - 
+Press 1 ***For Registration
+Press 2 ***For Login
+  [main] INFO  com.hostelMS.App  - 				>>--------------Welcome to Login Portal--------------<<
+  [main] INFO  com.hostelMS.App  - Enter Username
+  [main] INFO  com.hostelMS.App  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostelMS]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@287ae90c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.hostelMS.App  - Rani..! Your Login is  Successfull
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			>>------------Welcome to Admin Dashboard-------------------<<
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			----------List of ALL Rooms--------
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 101		 Room Name : Abc		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 102		 Room Name : charRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 103		 Room Name : JohnRoom		Room Type : nonAc
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 104		 Room Name : ForthRoom		Room Type : nonAC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 105		 Room Name : FifthRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 106		 Room Name : SixthRoom		Room Type : AC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 111		 Room Name : ElevRoom		Room Type : NonAC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 109		 Room Name : DivuRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter user Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter room Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.App  - 							||>-----------------------WELCOME TO HOSTEL MANAGEMENT SYSTEM---------------------<||
+  [main] INFO  com.hostelMS.App  - 
+Press 1 ***For Registration
+Press 2 ***For Login
+  [main] INFO  com.hostelMS.App  - 				>>--------------Welcome to Login Portal--------------<<
+  [main] INFO  com.hostelMS.App  - Enter Username
+  [main] INFO  com.hostelMS.App  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostelMS]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@287ae90c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.hostelMS.App  - Rani..! Your Login is  Successfull
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			>>------------Welcome to Admin Dashboard-------------------<<
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			----------List of ALL Rooms--------
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 101		 Room Name : Abc		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 102		 Room Name : charRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 103		 Room Name : JohnRoom		Room Type : nonAc
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 104		 Room Name : ForthRoom		Room Type : nonAC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 105		 Room Name : FifthRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 106		 Room Name : SixthRoom		Room Type : AC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 111		 Room Name : ElevRoom		Room Type : NonAC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 109		 Room Name : DivuRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter user Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter room Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			----------List of ALL Rooms--------
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 101		 Room Name : Abc		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 102		 Room Name : charRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 103		 Room Name : JohnRoom		Room Type : nonAc
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 104		 Room Name : ForthRoom		Room Type : nonAC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 105		 Room Name : FifthRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 106		 Room Name : SixthRoom		Room Type : AC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 111		 Room Name : ElevRoom		Room Type : NonAC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 109		 Room Name : DivuRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  org.hibernate.event.internal.DefaultLoadEventListener  - HHH000327: Error performing load command
+  org.hibernate.ObjectNotFoundException: No row with the given identifier exists: [com.hostelMS.model.Room#100]
+	at org.hibernate.boot.internal.StandardEntityNotFoundDelegate.handleEntityNotFound(StandardEntityNotFoundDelegate.java:28)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:216)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:327)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:118)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1231)
+	at org.hibernate.internal.SessionImpl.internalLoad(SessionImpl.java:1096)
+	at org.hibernate.type.EntityType.resolveIdentifier(EntityType.java:706)
+	at org.hibernate.type.EntityType.resolve(EntityType.java:465)
+	at org.hibernate.type.ManyToOneType.resolve(ManyToOneType.java:265)
+	at org.hibernate.engine.internal.TwoPhaseLoad$EntityResolver.lambda$static$0(TwoPhaseLoad.java:576)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntityEntryLoadedState(TwoPhaseLoad.java:221)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:155)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:126)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1201)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:1009)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:967)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at com.hostelMS.DaoImpl.AdminDaoImp.AllUsers(AdminDaoImp.java:42)
+	at com.hostelMS.serviceImp.AdminDashBoardImp.fetchAllUsers(AdminDashBoardImp.java:72)
+	at com.hostelMS.serviceImp.AdminDashBoardImp.dashboard(AdminDashBoardImp.java:41)
+	at com.hostelMS.serviceImp.loginRegisterImp.login(loginRegisterImp.java:103)
+	at com.hostelMS.App.main(App.java:35)
+[main] INFO  com.hostelMS.App  - 							||>-----------------------WELCOME TO HOSTEL MANAGEMENT SYSTEM---------------------<||
+  [main] INFO  com.hostelMS.App  - 
+Press 1 ***For Registration
+Press 2 ***For Login
+  [main] INFO  com.hostelMS.App  - 				>>--------------Welcome to Login Portal--------------<<
+  [main] INFO  com.hostelMS.App  - Enter Username
+  [main] INFO  com.hostelMS.App  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostelMS]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@287ae90c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.hostelMS.App  - Rani..! Your Login is  Successfull
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			>>------------Welcome to Admin Dashboard-------------------<<
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			----------List of ALL Rooms--------
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 101		 Room Name : Abc		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 102		 Room Name : charRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 103		 Room Name : JohnRoom		Room Type : nonAc
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 104		 Room Name : ForthRoom		Room Type : nonAC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 105		 Room Name : FifthRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 106		 Room Name : SixthRoom		Room Type : AC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 111		 Room Name : ElevRoom		Room Type : NonAC
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room Id : 109		 Room Name : DivuRoom		Room Type : Ac
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter Room Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter Room Name
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter Room Type
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room added successfully...!
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter user Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter room Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.App  - 							||>-----------------------WELCOME TO HOSTEL MANAGEMENT SYSTEM---------------------<||
+  [main] INFO  com.hostelMS.App  - 
+Press 1 ***For Registration
+Press 2 ***For Login
+  [main] INFO  com.hostelMS.App  - 				>>--------------Welcome to Login Portal--------------<<
+  [main] INFO  com.hostelMS.App  - Enter Username
+  [main] INFO  com.hostelMS.App  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostelMS]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@287ae90c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.hostelMS.App  - Rani..! Your Login is  Successfull
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			>>------------Welcome to Admin Dashboard-------------------<<
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter user Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter room Id
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Room alloted successfully...!
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter Room Id : 
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+		---------Data----------------
+User Id : 9	Name : Manisha	Contact : 9876545678
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter User Id : 
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter User Id : 
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter User Id : 
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - User(userId=7, userName=Shikha, userPhone=7686789088, userPassword=shekh01, userAddress=Delhi, userRole=student, userFee=0, userRoom=Room(roomId=105, roomName=FifthRoom, roomType=Ac))
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter Amount to Add
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter user Id
+  [main] INFO  com.hostelMS.App  - 							||>-----------------------WELCOME TO HOSTEL MANAGEMENT SYSTEM---------------------<||
+  [main] INFO  com.hostelMS.App  - 
+Press 1 ***For Registration
+Press 2 ***For Login
+  [main] INFO  com.hostelMS.App  - 				>>--------------Welcome to Login Portal--------------<<
+  [main] INFO  com.hostelMS.App  - Enter Username
+  [main] INFO  com.hostelMS.App  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostelMS]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@287ae90c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.hostelMS.App  - Rani..! Your Login is  Successfull
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+			>>------------Welcome to Admin Dashboard-------------------<<
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - Enter user Id to delete
+  [main] INFO  com.hostelMS.serviceImp.AdminDashBoardImp  - 
+	Press 1 ***TO View all Rooms Data		Press 2 ***To View all Users Data
+	Press 3 ***To Create Rooms			Press 4 ***To Allot room to user
+	Press 5 ***To view user in a room		Press 6 ***To view user profile
+	Press 7 ***To Add Due Amount			Press 8 ***To Pay Due Amount
+	Press 9 ***To Delete user
+  [main] INFO  com.hostelMS.App  - 							||>-----------------------WELCOME TO HOSTEL MANAGEMENT SYSTEM---------------------<||
+  [main] INFO  com.hostelMS.App  - 
+Press 1 ***For Registration
+Press 2 ***For Login
+  [main] INFO  com.hostelMS.App  - 				>>--------------Welcome to Login Portal--------------<<
+  [main] INFO  com.hostelMS.App  - Enter Username
+  [main] INFO  com.hostelMS.App  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostelMS]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@287ae90c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.hostelMS.App  - Divya..! Your Login is  Successfull
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - 			---------------------Welcome to Userdashboard----------------------
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - 
+Press 1 ***To viewRoom
+Press 2 ***To view dueAmount 
+Press 3 ***To view profile
+Press 4 ***To Update Phone number 
+Press 5 ***To Change password
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - 	Hello Divya...! 
+your room number is 101 .Room name is Abc and it is AcRoom
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - 
+Press 1 ***To viewRoom
+Press 2 ***To view dueAmount 
+Press 3 ***To view profile
+Press 4 ***To Update Phone number 
+Press 5 ***To Change password
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - Your due fee :4000
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - 
+Press 1 ***To viewRoom
+Press 2 ***To view dueAmount 
+Press 3 ***To view profile
+Press 4 ***To Update Phone number 
+Press 5 ***To Change password
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - User(userId=1, userName=Divya, userPhone=8800372300, userPassword=Divu123, userAddress=dELHI, userRole=student, userFee=4000, userRoom=Room(roomId=101, roomName=Abc, roomType=Ac))
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - 
+Press 1 ***To viewRoom
+Press 2 ***To view dueAmount 
+Press 3 ***To view profile
+Press 4 ***To Update Phone number 
+Press 5 ***To Change password
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - Enter New Phone number
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - Phone number updated....!
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - 
+Press 1 ***To viewRoom
+Press 2 ***To view dueAmount 
+Press 3 ***To view profile
+Press 4 ***To Update Phone number 
+Press 5 ***To Change password
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - Enter Current Password
+  [main] INFO  com.hostelMS.serviceImp.UserDashBoardImp  - Enter New Password
   

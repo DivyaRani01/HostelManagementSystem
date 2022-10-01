@@ -17,7 +17,7 @@ import org.apache.log4j.Logger;
 public class UserDashBoardImp implements UserDashBoard{
 	//declaring static objects to use in entire class
 	//creating logger object 
-	static Logger log=Logger.getLogger(App.class);
+	static Logger log=Logger.getLogger(UserDashBoardImp.class);
 	//creating Scanner object to take user's input
 	static Scanner obj=new Scanner(System.in);
     //creating object of UserDashboardimp
@@ -30,12 +30,12 @@ public class UserDashBoardImp implements UserDashBoard{
 	@Override
 	public void dashboard(int uId) throws GlobalException {
 		// TODO Auto-generated method stub
-			log.info("\t\t\t---------------------Welcome to userdashboard----------------------");
+			log.info("\t\t\t---------------------Welcome to Userdashboard----------------------");
 			int op=0;
 			userId=uId;
 			while(op<6) {
 				//user can select operation
-				log.info("\nPress 1 for viewRoom\nPress 2 for view dueAmount \nPress 3 for view profile\nPress 4 for Update Phone number \nPress 5 for Change password");
+				log.info("\nPress 1 ***To viewRoom\nPress 2 ***To view dueAmount \nPress 3 ***To view profile\nPress 4 ***To Update Phone number \nPress 5 ***To Change password");
 				
 				op=obj.nextInt();
 				
@@ -56,22 +56,21 @@ public class UserDashBoardImp implements UserDashBoard{
 
 		
 	}
-//creating method to view details of the room	
+//creating method -> to view details of the room	
 	@Override
 	public void viewRoom() {
 		// TODO Auto-generated method stub
-		//Calling dao layer
+		//Calling dao layer and fetching user room details
 		User u1=dao.viewRoom(userId);
-		log.info("Hello "+u1.getUserName()+" your room number is"+u1.getUserRoom().getRoomId()+" room name is "+u1.getUserRoom().getRoomName()+" and it is "+u1.getUserRoom().getRoomType()+" room");
-		
+		log.info("\tHello "+u1.getUserName()+"...! \nyour room number is "+u1.getUserRoom().getRoomId()+" .Room name is "+u1.getUserRoom().getRoomName()+" and it is "+u1.getUserRoom().getRoomType()+"Room");
 	}
-//Creating method to view dueamount of the user
+//Creating method-> to view dueamount of the user
 	@Override
 	public void viewDueAmount() {
 		// TODO Auto-generated method stub
 		//calling dao layer
 		int amount=dao.viewDueAmount(userId);
-		log.info("your fee due upto this month is :"+amount);
+		log.info("Your due fee :"+amount);
 		
 	}
 //creating method to view profile of the user	
@@ -82,15 +81,16 @@ public class UserDashBoardImp implements UserDashBoard{
 		log.info(u1);
 		
 	}
-//creating method to chnage phone number	
+//creating method to change phone number	
 	@Override
 	public void changePhonenumber() {
 		// TODO Auto-generated method stub
 		log.info("Enter New Phone number");
 		String phone=obj.next();
+		//updating phone number
 		int st=dao.changePhone(userId, phone);
 		if(st==1) {
-			log.info("Phone number updated");
+			log.info("Phone number updated....!");
 		}
 		
 	}
@@ -104,7 +104,7 @@ public class UserDashBoardImp implements UserDashBoard{
 		String newpwd=obj.next();
 		int st=dao.changePassword(userId, oldpwd, newpwd);
 		if(st==1) {
-			log.info("password changed");
+			log.info("Password changed Successfully");
 		}
 		
 	}
